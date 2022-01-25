@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+}
+
+.header_home {
+	background-color: hsl(0, 1%, 70%);
+	text-align: center;
+  padding: 0;
+  margin: 0;
+  border: 2px solid black;
+}
+
+button {
+	background-color: rgb(236, 228, 228);
+	font-size: 30px;
+	border-radius: 13px;
+	width: 50px;
+	height: 50px;
+}
+
+.button_header {
+	float: left;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+
+.homework_list {
+	margin: 7%;
+	line-height: 200%;
+	font-size: 30px;
+}
+
+.main_container {
+	margin: 3%;
+}
