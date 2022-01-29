@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.header_home {
+  background-color: hsl(234, 50%, 13%);
+  text-align: center;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.button_header {
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.homework_list {
+  margin: 7%;
+  line-height: 200%;
+  font-size: 30px;
+}
+
+.main_container {
+  margin: 3%;
+}
+
+.link_header {
+  color: #ce5200;
+  text-decoration: none;
+  font-size: 25px;
+}
