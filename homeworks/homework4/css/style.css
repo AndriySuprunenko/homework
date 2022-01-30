@@ -62,22 +62,22 @@ article {
   width: 943px;
 }
 
-/* Aboute me */
+/* About me */
 
-.aboute_me {
+.about_me {
   background-color: #f6f6f6;
   text-align: center;
   margin-top: 100px;
   padding: 100px;
 }
 
-.aboute_me_title {
+.about_me_title {
   font-family: Open Sans;
   font-size: 34px;
   margin-bottom: 28px;
 }
 
-.aboute_me_text {
+.about_me_text {
   font-family: Open Sans;
   font-size: 18px;
   margin-bottom: 30px;
