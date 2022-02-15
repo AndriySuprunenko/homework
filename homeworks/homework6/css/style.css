@@ -295,19 +295,22 @@ body {
 }
 
 .form-footer {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-top: -180px;
   margin-left: 70%;
 }
 
 .input-footer {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 325px;
   height: 50px;
 }
 
 .button-footer {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
   width: 130px;
   height: 40px;
