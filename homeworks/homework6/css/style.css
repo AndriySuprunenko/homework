@@ -27,17 +27,17 @@ body {
   padding: 15px 0 15px 0;
 }
 
-.logo {
+.header-logo {
   display: inline-block;
   margin-right: 320px;
 }
 
-.logo-img {
+.header-logo__img {
   width: 30px;
   height: 30px;
 }
 
-.logo-text {
+.header-logo__text {
   font-family: var(--font-family);
   font-size: 30px;
   font-weight: bold;
@@ -50,7 +50,7 @@ body {
 
 /* Style link */
 
-.link {
+.navigation__link {
   text-decoration: none;
   color: #2f281e;
   margin-right: 25px;
