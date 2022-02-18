@@ -306,8 +306,6 @@ body {
 }
 
 .button-footer {
-  display: flex;
-  flex-direction: column;
   margin-top: 20px;
   width: 130px;
   height: 40px;
