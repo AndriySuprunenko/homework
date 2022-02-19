@@ -1,0 +1,105 @@
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.section-frame {
+  background-color: #2b81ac;
+  padding: 15px;
+  width: 100%;
+  max-width: 830px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+.section-body {
+  background-color: #3399cc;
+  padding: 95px 0 95px 0;
+  width: 100%;
+  max-width: 800px;
+  height: 520px;
+}
+
+.list {
+  border: 1px solid white;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.block--1 {
+  display: flex;
+}
+
+.object {
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;
+  opacity: 0.5;
+}
+
+.object:hover {
+  opacity: 1;
+}
+
+.object-1 {
+  background-color: #3399CC;
+  width: 50%;
+}
+
+.object-2 {
+  background-color: #33cccc;
+  width: 25%;
+}
+.object-3 {
+  background-color: #996699;
+  width: 25%;
+}
+.object-4 {
+  background-color: #c24747;
+  width: 25%;
+}
+.object-5 {
+  background-color: #e2674a;
+  width: 25%;
+}
+.object-6 {
+  background-color: #ffcc66;
+  width: 25%;
+}
+.object-7 {
+  background-color: #99cc99;
+  width: 25%;
+}
+.object-8 {
+  background-color: #669999;
+  width: 25%;
+}
+.object-9 {
+  background-color: #cc6699;
+  width: 50%;
+}
+.object-10 {
+  background-color: #339966;
+  width: 25%;
+}
+.object-11 {
+  background-color: #666699;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
