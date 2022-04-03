@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*::-moz-selection {
+  background-color: rgba(249, 99, 50, 0.3);
+}
+
+*::selection {
+  background-color: rgba(249, 99, 50, 0.3);
+}
+
+*::-webkit-scrollbar {
+  border-radius: 10px;
+  position: relative;
+  z-index: 999;
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(249, 99, 50, 0.8);
+          box-shadow: inset 0 0 3px rgba(249, 99, 50, 0.8);
+  background-color: rgba(249, 99, 50, 0.3);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 3px rgba(249, 99, 50, 0.8);
+          box-shadow: inset 0 0 3px rgba(249, 99, 50, 0.8);
+  background-color: #f96332;
+  border-radius: 10px;
+  outline: none;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Inter";
+  background-color: #F7F7F7;
+  padding: 10px;
+}
+
+.icon {
+  display: inline-block;
+  stroke: currentColor;
+  fill: currentColor;
+  height: 1em;
+  width: 1em;
+}
+
+.icon:not(.has-stroke) {
+  stroke-width: 0;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input {
+  cursor: pointer;
+  background-color: #fff;
+  margin-top: 5px;
+  padding: 0 5px 0 5px;
+  height: 40px;
+  width: 100%;
+  border: 2px solid #E4E4E4;
+  border-radius: 7px;
+}
+
+.input:hover {
+  border-color: #969696;
+}
+
+.input--widh {
+  max-width: 245px;
+}
+
+.input__submit {
+  max-width: 150px;
+}
+
+.input__radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input__radio--button {
+  margin-right: 10px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #E4E4E4;
+  -webkit-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+  outline: none;
+}
+
+.input__radio--button:hover {
+  border-color: #969696;
+}
+
+.input__radio--button:checked {
+  border: 6px solid #007BFF;
+}
+
+.input:focus {
+  border: 2px solid #007BFF;
+}
+
+.label {
+  color: #545454;
+  font-size: 16px;
+}
+
+.link {
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #007BFF;
+}
+
+.link--footer {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.photo--block {
+  border-radius: 50%;
+  max-width: 80px;
+  max-height: 80px;
+  margin-right: 20px;
+}
+
+.file {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.file__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 0;
+  margin-right: 15px;
+  max-width: 140px;
+  max-height: 30px;
+}
+
+.file__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.file__box {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.trash-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border: 2px solid #E4E4E4;
+  border-radius: 7px;
+  padding: 0;
+  min-width: 30px;
+  max-height: 30px;
+}
+
+.trash-button:hover {
+  border-color: #969696;
+}
+
+.form {
+  width: 100%;
+  padding: 20px;
+  max-width: 540px;
+  min-height: 590px;
+  background-color: #fff;
+}
+
+.form--padd {
+  margin-right: 30px;
+}
+
+.form__title {
+  font-size: 24px;
+}
+
+.form__title--bold {
+  line-height: bold;
+}
+
+.form__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.form__block--text {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.form__block--radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.form__item {
+  width: 100%;
+}
+
+.form__text {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #969696;
+}
+
+.form__text--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.form__text--and {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #969696;
+  padding: 0 5px 0 5px;
+}
+
+.form__line {
+  margin-top: 20px;
+  background-color: #E4E4E4;
+  border: none;
+  height: 2px;
+}
+
+.form__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.form__footer--text {
+  color: #545454;
+  margin-right: 5px;
+}
+
+.form__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}

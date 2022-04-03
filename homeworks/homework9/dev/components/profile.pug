@@ -1,0 +1,38 @@
+mixin profile()
+  form(action="#" method="post").form
+      h1.form__title Profile
+      ul.form__list
+        .form__banner
+          .photo--block
+            img(src="./images/📷 Image.png" alt="photo").photo
+          .file
+            .file__block.input
+              +input({type:'file', name:'file'})(class='file__box')
+              .file__img
+                img(src="./images/camera.svg", alt="camera")
+            +trashButton({type:'reset'})(class='trash-button')
+
+        .form__block
+          li.form__item 
+            +label({text: 'Name', fo:'name'}) 
+            +input({type:'text', id: 'name'})(class='input--widh input')
+          li.form__item 
+            +label({text: 'E-mail', fo:'eMail'})
+            +input({type:'email', id: 'eMail'})(class='input--widh input')
+        .form__block
+          li.form__item
+            +label({text: 'Country', fo:'selectP'})
+            +select(class='input input--widh')
+          li.form__item 
+            +label({text: 'City', fo:'cityP'})
+            +input({type:'text', id: 'cityP'})(class='input--widh input')
+        .form__block
+          li.form__item 
+            +label({text: 'Zip Code', fo:'zipCode'})
+            +input({type:'text', id: 'zipCode'})(class='input--widh input')
+          li.form__item 
+            +label({text: 'Phone Number', fo:'phone'})
+            +input({type:'phone', id: 'phone'})(class='input--widh input')
+        .form__block--text
+          li.form__item
+            +button({type:'submit'})(class='input--widh input')

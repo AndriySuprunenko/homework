@@ -1,0 +1,54 @@
+// Input
+input {
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+// Class input
+.input {
+  cursor: pointer;
+  background-color: $c-white;
+  margin-top: 5px;
+  padding: 0 5px 0 5px;
+  height: 40px;
+  width: 100%;
+  border: 2px solid $c-border;
+  border-radius: 7px;
+  &:hover {
+    border-color: $c-text;
+  }
+  &--widh {
+    max-width: 245px;
+  }
+  &__submit {
+    max-width: 150px;
+  }
+  &__radio {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    align-items: center;
+    &--button {
+      margin-right: 10px;
+      appearance: none;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      border: 2px solid $c-border;
+      transition: 0.2s all linear;
+      outline: none;
+      &:hover {
+        border-color: $c-text;
+      }
+      &:checked {
+        border: 6px solid $c-border-focus;
+      }
+    }
+  }
+}
+
+.input:focus {
+  border: 2px solid $c-border-focus;
+}

@@ -1,0 +1,5 @@
+mixin trashButton(args)
+  - var type = args.type || 'button'
+
+  button(type=type, name= 'button' class!=attributes.class) 
+    img(src="./images/trash.svg", alt="trash")

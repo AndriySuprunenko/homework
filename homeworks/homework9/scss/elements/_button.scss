@@ -1,0 +1,14 @@
+.trash-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $c-white;
+  border: 2px solid $c-border;
+  border-radius: 7px;
+  padding: 0;
+  min-width: 30px;
+  max-height: 30px;
+  &:hover {
+    border-color: $c-text;
+  }
+}

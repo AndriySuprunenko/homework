@@ -1,0 +1,37 @@
+//- Extends
+extends ./dev/extends/layout
+
+//- Includes
+//- Components
+include ./dev/components/header
+include ./dev/components/create
+include ./dev/components/profile
+include ./dev/components/footer
+
+//- Elements
+include ./dev/elements/input
+include ./dev/elements/select
+include ./dev/elements/label
+include ./dev/elements/button
+include ./dev/elements/trashButton
+
+//- Title
+block title 
+  |Form
+
+//- Head
+block head 
+  link(rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css")
+  link(rel="stylesheet" href="./style.css")
+  link(rel="shortcut icon", href="../../assets/images/favicon.ico", type="image/x-icon")
+
+//- Body
+block body
+  +header()
+  .wrapper 
+    //- Header
+    //- Create 
+    +create()
+    //- Profile
+    +profile()
+  +footer()

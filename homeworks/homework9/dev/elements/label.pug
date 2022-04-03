@@ -1,0 +1,6 @@
+mixin label(args)
+  - var text = args.text || 'text'
+  - var fo = args.fo || 'name'
+
+  label(for=fo).label
+    text=text

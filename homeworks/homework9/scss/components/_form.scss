@@ -1,0 +1,71 @@
+.form {
+  width: 100%;
+  padding: 20px;
+  max-width: 540px;
+  min-height: 590px;
+  background-color: $c-white;
+  &--padd {
+    margin-right: 30px;
+  }
+  &__title {
+    font-size: 24px;
+    &--bold {
+      line-height: bold;
+    }
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+    &--text {
+      list-style-type: none;
+      margin-top: 20px;
+    }
+    &--radio {
+      display: flex;
+      list-style-type: none;
+      margin-top: 20px;
+    }
+  }
+  &__item {
+    width: 100%;
+  }
+  &__text {
+    margin-top: 10px;
+    font-size: 13px;
+    color: $c-text;
+    &--link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0;
+    }
+    &--and {
+      margin-top: 10px;
+      font-size: 13px;
+      color: $c-text;
+      padding: 0 5px 0 5px;
+    }
+  }
+  &__line {
+    margin-top: 20px;
+    background-color: $c-border;
+    border: none;
+    height: 2px;
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+    &--text {
+      color: $c-subtitle;
+      margin-right: 5px;
+    }
+  }
+  &__banner {
+    display: flex;
+  }
+}

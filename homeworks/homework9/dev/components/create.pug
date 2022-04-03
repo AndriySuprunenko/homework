@@ -1,0 +1,54 @@
+mixin create()
+  //- Create an account
+  form(action="#" method="post").form.form--padd
+    //- Title
+    h1.form__title.form__title--bold Create an Account
+    //- List
+    ul.form__list
+      .form__block
+        li.form__item 
+          +label({text: 'First Name', fo:'firstName'})
+          +input({type:'text', id:'firstName'})(class='input--widh input')
+        li.form__item 
+          +label({text: 'Last Name', fo:'lastName'}) 
+          +input({type:'text', id:'lastName'})(class='input--widh input')
+      //- Email
+      .form__block--text
+        li.form__item 
+          +label({text: 'Email', fo:'email'}) 
+          +input({type:'email', id:'email'})(class='input')
+        span.form__text We'll never share your email with anyone else.
+      //- Radio
+      .form__block--radio
+        li.input__radio
+          +input({type:'radio', name:'radio', id:'radioM'})(class='input__radio--button')
+          +label({text: 'Male', fo:'radioM'})
+        li.input__radio
+          +input({type:'radio', name:'radio', id:'radioF'})(class='input__radio--button')
+          +label({text: 'Female', fo:'radioF'})
+      //- Select
+      .form__block
+        li.form__item 
+          +label({text: 'Country', fo:'selectC'})
+          +select(class='input input--widh')
+        li.form__item 
+          +label({text: 'City', fo:'city'})
+          +input({type:'text', id: 'city'})(class='input--widh input')
+      //- None
+      .form__block--text
+        li.form__item
+          //- +input({type:'submit', name: 'submit'})(class='input')
+          +button({type:'submit'})(class='input')
+          .form__text--link
+            span.form__text By clicking the 'Sign Up' button, you confirm that you accept our 
+          .form__text--link
+            a(href="#").link Terms of Use 
+            span.form__text--and and 
+            a(href="#").link Privacy Policy
+            span.form__text .
+      //- Line
+      hr.form__line
+      //- Footer
+      .form__footer
+        span.form__footer--text Have an account?
+        a(href="#").link--footer Log in 

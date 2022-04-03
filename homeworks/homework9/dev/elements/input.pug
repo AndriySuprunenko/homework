@@ -1,0 +1,6 @@
+mixin input(args)
+  - var type = args.type || 'text'
+  - var name = args.name || 'name'
+  - var id = args.id || 'id'
+
+  input(type=type, name=name, class!=attributes.class, id=id)
