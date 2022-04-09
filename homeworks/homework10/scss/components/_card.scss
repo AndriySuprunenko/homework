@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 35px;
+  &__design {
+    width: 100%;
+    padding: 40px;
+    max-width: 360px;
+    max-height: 360px;
+    border: 2px solid $c-border;
+    border-radius: 15px;
+    &:hover {
+      border: 2px solid $c-border-hover;
+    }
+    &--mar {
+      margin-right: 40px;
+      margin-left: 40px;
+    }
+  }
+  &__icon {
+    width: 64px;
+    height: 64px;
+    padding: 15px;
+    border: 2px solid $c-border;
+    border-radius: 15px;
+  }
+  &__title {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    font-size: $fs-card-title;
+    color: $c-default;
+  }
+  &__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: $fs-base;
+    margin-top: 15px;
+    color: $c-default;
+  }
+  &__link {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: $c-default;
+    &:hover {
+      color: $c-border-hover;
+    }
+  }
+}

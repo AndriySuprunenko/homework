@@ -1,0 +1,30 @@
+// * COLORS
+$c-black: #000;
+$c-black-base: #2c2c2c;
+$c-white: #fff;
+$c-default: #16133D;
+// $c-portland-orange: #F96332;
+$c-primary: #f96332;
+$c-info: #2ca8ff;
+$c-border: #EFEEF3;
+$c-border-hover: #3DB370;
+$c-subtitle: #7690A8;
+$c-text: #969696;
+
+// * Font
+$f-base: 'Inter';
+
+// * Font size
+$fs-base: 16px;
+$fs-card-title: 24px;
+$fs-logo: 35px;
+$fs-title: 40px;
+
+// * Cubic bezies
+$cb-normal: cubic-bezier(0.4, 0, 0.2, 1);
+
+// * Transition
+$t-normal: 0.35s $cb-normal;
+
+// * Box Shadow
+$bs-normal: 0 0 10px 25px rgba($c-black, 0.3);

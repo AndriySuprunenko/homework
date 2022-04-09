@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Quicksand:wght@500&family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Inter";
+  background-color: #fff;
+}
+
+.icon {
+  display: inline-block;
+  stroke: currentColor;
+  fill: currentColor;
+  height: 100%;
+  width: 100%;
+}
+
+.icon:not(.has-stroke) {
+  stroke-width: 0;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.logo__image {
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.logo__img {
+  margin: 0;
+  width: 100%;
+}
+
+.logo__title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+
+.logo__title--header {
+  color: #16133D;
+}
+
+.logo__title--footer {
+  color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  padding: 40px;
+}
+
+.header__wrapper {
+  width: 100%;
+  max-width: 1155px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+  border-bottom: 2px solid #EFEEF3;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.services {
+  width: 100%;
+  padding: 40px;
+}
+
+.services__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  max-width: 1155px;
+}
+
+.services__subtitle {
+  font-family: 'Roboto', sans-serif;
+  color: #7690A8;
+  font-size: "Inter";
+}
+
+.services__title {
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 15px;
+  font-size: 40px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.card__design {
+  width: 100%;
+  padding: 40px;
+  max-width: 360px;
+  max-height: 360px;
+  border: 2px solid #EFEEF3;
+  border-radius: 15px;
+}
+
+.card__design:hover {
+  border: 2px solid #3DB370;
+}
+
+.card__design--mar {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.card__icon {
+  width: 64px;
+  height: 64px;
+  padding: 15px;
+  border: 2px solid #EFEEF3;
+  border-radius: 15px;
+}
+
+.card__title {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #16133D;
+}
+
+.card__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+  color: #16133D;
+}
+
+.card__link {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #16133D;
+}
+
+.card__link:hover {
+  color: #3DB370;
+}
+
+.footer {
+  margin-top: 70px;
+  padding: 40px;
+  width: 100%;
+  background-color: #16133D;
+}
+
+.footer__wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1155px;
+}
+
+.footer__logo {
+  margin-top: 35px;
+}
+
+.footer__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.footer__icon {
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.footer__icon:last-child {
+  margin-right: 0;
+}
+
+.footer__icon--twitter {
+  color: #3DB370;
+}
