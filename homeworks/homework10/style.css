@@ -20,6 +20,10 @@ body {
   width: 100%;
 }
 
+.icon:hover {
+  fill: #3DB370;
+}
+
 .icon:not(.has-stroke) {
   stroke-width: 0;
 }
